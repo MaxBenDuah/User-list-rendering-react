@@ -6,7 +6,7 @@ const App = function () {
   const [users, setUsers] = useState([]);
 
   const handleUser = (user) => {
-    setUsers(prevValue => [...prevValue, user])
+    setUsers(prevUser => [...prevUser, user])
   }
 
   return (
